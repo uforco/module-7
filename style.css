@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.wap-full{
+    width: 80%;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wap-full h1{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+/* tesk-1 */
+.tesk-1 .contenar-flex{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.left-box, .right-box{
+    width: auto;
+    height: 350px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.left-box p, .right-box p{
+    display: flex;
+    font-size: 3em;
+    color: #fff;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+.left-box{
+    width: 30%;
+    background-color: #646464;
+}
+.right-box{
+    width: 70%;
+    background-color: #a0a374;
+}
+
+/* grid */
+.tesk-2 .contenar-grid{
+    
+    border: 2px solid #00ff00;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: repeat(4, 1fr); */
+    gap: 30px;
+    background-color: #07fad1;
+    padding: 20px;
+}
+.contenar-grid .grid-off{
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 1px;
+    border: 1px solid #000;
+    color: #fff;
+}
+.g-item1{
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+
+    background-color: #ff5100;
+}
+.g-item2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    /* grid-column: 3 / span 2; */
+    background-color: #ffde21;
+}
+.g-item3{
+    background-color: #a012ff;
+}
+.g-item4{
+    background-color: #2f2f33;
+}
+/* task-3 */
+.tesk-3 .img-box{
+    width: auto;
+}
+.tesk-3 .img-box img{
+    width: 100%;
+} 
+/* task-4 */
+.contenar-igt{
+    width: auto;
+}
+.contenar-igt .food1, .food2{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #6b6b6b;
+    border-radius: 0 5px 5px 0;
+    margin: 10px 0;
+}
+.contenar-igt .food-img{
+    width: 40%;
+}
+.contenar-igt .food-img img{
+    width: 100%;
+    height: 100%;
+}
+.contenar-igt .food-txt{
+    padding: 10px;
+    width: 60%;
+
+}
+.food-txt h4{
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+.food-txt p{
+    text-align: justify;
+}
+.food-txt button{
+    outline: none;
+    border: 2px solid #5c59ff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #5c59ff;
+    text-transform: uppercase;
+}
+.food-txt button:hover{
+    border: 2px solid #5c59ff;
+    color: #5c59ff;
+    background-color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
