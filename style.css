@@ -65,6 +65,7 @@ body{
     font-size: 1.5em;
     border-radius: 1px;
     border: 1px solid #000;
+    border-radius: 4px;
     color: #fff;
 }
 .g-item1{
@@ -104,10 +105,10 @@ body{
 }
 .contenar-igt .food1, .food2{
     display: flex;
-    width: 100%;
+    width: auto;
     overflow: hidden;
     border: 1px solid #6b6b6b;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
     margin: 10px 0;
 }
 .contenar-igt .food-img{
